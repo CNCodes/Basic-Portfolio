@@ -10,9 +10,7 @@ footer{
 	bottom: 0px;
 	left: 0px;
 	border-top-color: #4aaaa5;
-	border-top-width: 5px;
-	border-right-width: 0px;
-	border-left-width: 0px;
+	border-width: 5px 0px 0px 0px;
 	border-style: solid; 
 	padding: 25px;
 }
@@ -40,9 +38,7 @@ header{
 	width: 100%;
 	border-bottom-color: #cccccc;
 	border-style: solid;
-	border-left-width: 0px;
-	border-right-width: 0px;
-	border-top-width: 0px;
+	border-width: 0px 0px 1px 0px;
 	margin-bottom: 20px;
 	position: relative;
 	top: -15px;
@@ -51,18 +47,14 @@ header{
 }
 
 header > h1{
-	margin-top: 0px;
-	margin-bottom: 0px;
-	margin-right: 0;
-	margin-left:10%;
+	margin: 0px 0px 0px 10%;
 	width: 250px;
 	height: 50px;
 	background-color: #4aaaa5;
 	color: white;
 	text-align: center;
 	vertical-align: middle;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding: 25px 0px;
 	float: left;
 	font-family: Georgia, Times, Times New Roman, serif;
 }
@@ -75,8 +67,7 @@ hr{
 }
 
 nav > a{
-	padding-right: 8px;
-	padding-left: 8px;
+	padding: 0px 8px;
 	font-size: 22px;
 	color: #777777;
 	text-decoration: none;
@@ -118,9 +109,7 @@ p{
 
 .leftSection{
 	width: 50%;
-	margin-left:10%;
-	margin-top: 20px;
-	margin-bottom: 125px;
+	margin: 20px 0px 125px 10%;
 	padding: 0% 2% 20px 2%;
 	background-color: #ffffff;
 	float:left;
@@ -136,12 +125,8 @@ p{
 
 .mediaNav{
 	width: 20%;
-	margin-right:10%;
-	margin-left: 30px;
-	margin-top: 20px;
-	padding-bottom: 20px;
-	padding-right: 20px;
-	padding-left: 20px;
+	margin: 20px 10% 0px 30px;
+	padding: 0px 20px 20px 20px;
 	background-color: #ffffff;
 	border-width: 1px;
 	border-style: solid;
@@ -154,19 +139,14 @@ p{
 	margin-right:10%;
 	height: 50px;
 	vertical-align: middle;
-	padding-top: 40px;
-	padding-bottom: 25px;
-	padding-right: 8px;
-	padding-left: 8px;
-	
+	padding: 40px 8px 25px 8px;
 }
 
 .navIcons{
 	cursor: pointer;
 	width: 50px;
 	height: 50px;
-	padding-left: 3px;
-	padding-right: 3px;
+	padding: 0px 3px;
 }
 
 .portfolioContainer{
