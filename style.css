@@ -1,3 +1,38 @@
+
+body{
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+footer{
+	width: 100%;
+	background-color: #666666;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	border-top-color: #4aaaa5;
+	border-top-width: 5px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-style: solid; 
+	padding: 25px;
+}
+
+form {
+	color:#777777;
+	font-size: 20px;
+}
+
+h2{
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h3{
+	text-align: center;
+	font-size: 12px;
+	color: #ffffff
+}
+
 header{
 	background-color: #ffffff;
 	height: 100px;
@@ -15,42 +50,6 @@ header{
 	right: 0px;
 }
 
-body{
-	background: ;
-}
-
-.navHeader{
-	float:right;
-	margin-right:10%;
-	height: 50px;
-	vertical-align: middle;
-	padding-top: 40px;
-	padding-bottom: 25px;
-	padding-right: 8px;
-	padding-left: 8px;
-	
-}
-
-.navSocialMedia{
-
-}
-.navIcons{
-	cursor: pointer;
-	width: 50px;
-	height: 50px;
-	padding-left: 3px;
-	padding-right: 3px;
-}
-
-nav > a{
-	padding-right: 8px;
-	padding-left: 8px;
-	font-size: 24px;
-	color: #777777;
-	text-decoration: none;
-	cursor: pointer;
-}
-
 header > h1{
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -65,15 +64,7 @@ header > h1{
 	padding-top: 25px;
 	padding-bottom: 25px;
 	float: left;
-}
-
-h2{
-	color: #4aaaa5;
-}
-
-form {
-	color:#777777;
-	font-size: 20px;
+	font-family: Georgia, Times, Times New Roman, serif;
 }
 
 hr{
@@ -83,14 +74,46 @@ hr{
 	float: left;
 }
 
-.portfolioImage {
-	width: 100px;
-	height: 100px;
-	float: left;
+nav > a{
+	padding-right: 8px;
+	padding-left: 8px;
+	font-size: 22px;
+	color: #777777;
+	text-decoration: none;
+	cursor: pointer;
 }
 
 p{
 	color: #777777;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.imageBanner{
+	position: relative;
+	bottom: 60px;
+	width: 100%;
+	padding: 5% 0%;
+	display:inline-block;
+	background-color: #4aaaa5;
+	color: white;
+	margin: 0px;
+	text-align: center;
+}
+
+.inputButton{
+	color: white;
+	background-color: #4aaaa5;
+	border: none;
+	padding: 20px 40px;
+	text-decoration: none;
+	font-size: 20px;
+	cursor: pointer;
+	
 }
 
 .leftSection{
@@ -104,10 +127,13 @@ p{
 	border-width: 1px;
 	border-style: solid;
 	border-color: #dddddd;
-
-
-	
 }
+
+.longanswer{
+	width: 100%;
+	padding: 50px 0px;
+}
+
 .mediaNav{
 	width: 20%;
 	margin-right:10%;
@@ -123,50 +149,50 @@ p{
 	float: left;
 }
 
-.shortanswer{
-	width: 100%;
-}
-
-.longanswer{
-	width: 100%;
-	padding: 50px 0px;
-}
-
-footer{
-	width: 100%;
-	background-color: #666666;
-	position: fixed;
-	bottom: 0px;
-	left: 0px;
-	border-top-color: #4aaaa5;
-	border-top-width: 5px;
-	border-right-width: 0px;
-	border-left-width: 0px;
-	border-style: solid; 
-	padding: 25px;
-}
-
-h3{
-	text-align: center;
-	font-size: 12px;
-	color: #ffffff
-}
-
-.inputButton{
-	color: white;
-	background-color: #4aaaa5;
-	border: none;
-	padding: 20px 40px;
-	text-decoration: none;
-	font-size: 20px;
-	cursor: pointer;
+.navHeader {
+	float:right;
+	margin-right:10%;
+	height: 50px;
+	vertical-align: middle;
+	padding-top: 40px;
+	padding-bottom: 25px;
+	padding-right: 8px;
+	padding-left: 8px;
 	
 }
 
-.portfolioPic{
+.navIcons{
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.portfolioContainer{
 	width: 40%;
 	height: 200px;
 	padding: 20px 5%;
 	float: left;
+}
+
+.portfolioImage {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+.portfolioPic{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+.shortanswer{
+	width: 100%;
+}
+
+::placeholder{
+	color:#dee3e8;
 }
 
