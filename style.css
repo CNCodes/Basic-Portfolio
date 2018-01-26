@@ -48,7 +48,7 @@ header{
 	right: 0px;
 }
 
-header > h1{
+header h1{
 	margin: 0px 0px 0px 10%;
 	width: 250px;
 	height: 50px;
@@ -69,7 +69,7 @@ hr{
 	float: left;
 }
 
-nav > a{
+nav a{
 	padding: 0px 8px;
 	font-size: 22px;
 	color: #777777;
@@ -80,6 +80,7 @@ nav > a{
 p{
 	color: #777777;
 }
+
 
 .clearfix::after{
 	content: "";
@@ -92,11 +93,11 @@ p{
 	bottom: 60px;
 	width: 100%;
 	padding: 5% 0%;
-	display:inline-block;
 	background-color: #884dc7;
 	color: white;
 	margin: 0px;
 	text-align: center;
+
 }
 
 .inputButton{
@@ -157,18 +158,17 @@ p{
 	height: 200px;
 	padding: 20px 5%;
 	float: left;
+	
 }
 
-.portfolioImage {
-	width: 100px;
-	height: 100px;
-	float: left;
+.portfolioContainer a{
+text-decoration: none;
+
 }
 
 .portfolioPic{
 	width: 100%;
 	height: 100%;
-	float: left;
 }
 
 .shortanswer{
